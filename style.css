@@ -1,0 +1,63 @@
+/* Add your CSS styles here */
+
+/* Set the width of the board */
+#board {
+  width: 400px;
+}
+
+/* Set the colors of the squares */
+.square-55d63 {
+  background-color: #f0d9b5;
+}
+.square-1e1d7 {
+  background-color: #b58863;
+}
+
+/* Set the styles for the chess pieces */
+/* Black pieces */
+.chessboard .piece.b {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/60/Chess_rdt45.svg");
+}
+.chessboard .piece.n {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ef/Chess_ndt45.svg");
+}
+.chessboard .piece.r {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Chess_rlt45.svg");
+}
+.chessboard .piece.q {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/47/Chess_qdt45.svg");
+}
+.chessboard .piece.k {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f0/Chess_kdt45.svg");
+}
+.chessboard .piece.p {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c7/Chess_pdt45.svg");
+}
+
+/* White pieces */
+.chessboard .piece.w {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/72/Chess_rlt45.svg");
+}
+.chessboard .piece.n {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/70/Chess_nlt45.svg");
+}
+.chessboard .piece.r {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/72/Chess_rlt45.svg");
+}
+.chessboard .piece.q {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/15/Chess_qlt45.svg");
+}
+.chessboard .piece.k {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/42/Chess_klt45.svg");
+}
+.chessboard .piece.p {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/45/Chess_plt45.svg");
+}
+
+/* Set the size of the pieces */
+.chessboard .piece {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
